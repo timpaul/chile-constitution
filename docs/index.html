@@ -8,15 +8,20 @@
       margin: 2em;
       font-family: sans-serif;
       line-height: 1.5;
-      max-width: 70ch;
     }
     details{
-      border: 1px solid;
-      padding: 1em;
+      padding: 1em 2em;
     }
     summary{
       color: blue;
       cursor: pointer;
+    }
+    nav{
+      position: sticky;
+      top: 0;
+      background: white;
+      margin: 0em -2em;
+      border-bottom: 1px solid lightgrey;
     }
     nav ol{
       list-style-type: none;
@@ -27,6 +32,9 @@
     }
     nav ol > li{
       margin-top: 0.5em;
+    }
+    article{    
+      max-width: 70ch;
     }
     /* Default article list style is deciment, outdented */
     article ol{
@@ -46,6 +54,10 @@
     /* Lists inside alphanumeric lists are decimal again */
     article h3 + p + ol ol{
       list-style-type: decimal;
+    }
+
+    p:contains("women"){
+      color: red;
     }
   </style>
 </head>
