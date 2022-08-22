@@ -8,11 +8,21 @@
       margin: 2em;
       font-family: sans-serif;
       line-height: 1.5;
-      color: #131516;
     }
-    a:link,
-    a:visited{
-      color: #131516;
+    header{
+      margin: -3em -2em;
+      padding: 1em 2em;
+      background-color: #47127d;
+    }
+    header,
+    header a,
+    header summary{
+      color: white;
+    }
+    article,
+    article a:link,
+    article a:visited{
+      color #131516;
     }
     a:hover{
       text-decoration-style: double;
@@ -29,11 +39,7 @@
       text-decoration-style: double;
     }
     nav{
-      /* position: sticky;
-      top: 0; */
-      background: white;
-      margin: 0em -2em;
-      border-bottom: 1px solid lightgrey;
+      margin: 0 -2em;
     }
     nav ol{
       list-style-type: none;
@@ -56,6 +62,7 @@
       list-style-type: '– ';
     }
     article{
+      margin-top: 4em;
       max-width: 70ch;
     }
     /* Default article list style is deciment, outdented */
@@ -80,96 +87,97 @@
   </style>
 </head>
 <body>
-<h1>Proposal for a new Constitution for Chile</h1>
-<p>Draft 3.0 - 2022</p>
-<p>Other formats: <a href="https://docs.google.com/document/d/1wcoeFodHBLlcY-uCgOo_UkiVKNs6rgyvBn7k5q5YtgU/edit?usp=sharing">Google Doc</a>, <a href="Proposal%20for%20a%20new%20Constitution%20-%20Chile%202022.pdf">PDF</a>.</p>
-<nav>
-  <details>
-    <summary>Table of contents</summary>
-    <ol>
-      <li>
-        <a href="#chapter-i-principles-and-general-provisions">CHAPTER I. PRINCIPLES AND GENERAL PROVISIONS</a>
-      </li>
-      <li>
-        <a href="#chapter-ii-fundamental-rights-and-guarantees">CHAPTER II. FUNDAMENTAL RIGHTS AND GUARANTEES</a>
-        <ol>
-          <li><a href="#nationality-and-citizenship">Nationality and Citizenship</a></li>
-          <li><a href="#constitutional-actions">Constitutional Actions</a></li>
-          <li><a href="#peoples-ombudsman">Peoples Ombudsman</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#chapter-iii-nature-and-the-environment">CHAPTER III. NATURE AND THE ENVIRONMENT</a>
-        <ol>
-          <li><a href="#natural-commons">Natural commons</a></li>
-          <li><a href="#statute-of-waters">Statute of Waters</a></li>
-          <li><a href="#statute-of-minerals">Statute of Minerals</a></li>
-          <li><a href="#ombudsman-of-nature">Ombudsman of Nature</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#chapter-iv-democratic-participation">CHAPTER IV. DEMOCRATIC PARTICIPATION</a>
-        <ol>
-          <li><a href="#participation-and-democratic-representation">Participation and democratic representation</a></li>
-          <li><a href="#suffrage-and-electoral-system">Suffrage and electoral system</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#chapter-v-good-governance-and-the-civil-service">CHAPTER V. GOOD GOVERNANCE AND THE CIVIL SERVICE</a>
-      </li>
-      <li>
-        <a href="#chapter-vi-regional-state-and-territorial-organization">CHAPTER VI. REGIONAL STATE AND TERRITORIAL ORGANIZATION</a>
-        <ol>
-          <li><a href="#autonomous-commune">Autonomous Commune</a></li>
-          <li><a href="#province">Province</a></li>
-          <li><a href="#autonomous-region">Autonomous Region</a></li>
-          <li><a href="#indigenous-territorial-autonomy">Indigenous Territorial Autonomy</a></li>
-          <li><a href="#special-territories">Special Territories</a></li>
-          <li><a href="#rural-areas">Rural areas</a></li>
-          <li><a href="#fiscal-autonomy">Fiscal Autonomy</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#chapter-vii-legislative-power">CHAPTER VII. LEGISLATIVE POWER</a>
-        <ol>
-          <li><a href="#congress-of-deputies">Congress of Deputies</a></li>
-          <li><a href="#chamber-of-the-regions">Chamber of the Regions</a></li>
-          <li><a href="#provisions-common-to-the-legislative-branch">Provisions common to the Legislative Branch</a></li>
-          <li><a href="#joint-sessions-of-the-congress-of-deputies-and-the-chamber-of-the-regions">Joint Sessions of the Congress of Deputies and the Chamber of the Regions</a></li>
-          <li><a href="#the-law">The Law</a></li>
-          <li><a href="#legislative-procedure">Legislative Procedure</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#chapter-viii-executive-power">CHAPTER VIII. EXECUTIVE POWER</a>
-      </li>
-      <li>
-        <a href="#chapter-ix-justice-systems">CHAPTER IX. JUSTICE SYSTEMS</a>
-        <ol>
-          <li><a href="#council-of-justice">Council of Justice</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#chapter-x-autonomous-constitutional-bodies">CHAPTER X. AUTONOMOUS CONSTITUTIONAL BODIES</a>
-        <ol>
-          <li><a href="#office-of-the-comptroller-general-of-the-republic">Office of the Comptroller General of the Republic</a></li>
-          <li><a href="#central-bank">Central Bank</a></li>
-          <li><a href="#public-prosecutor's-office">Public Prosecutor's Office</a></li>
-          <li><a href="#public-defender's-office">Public Defender's Office</a></li>
-          <li><a href="#national-data-protection-agency">National Data Protection Agency</a></li>
-          <li><a href="#constitutional-court">Constitutional Court</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#chapter-xi-reform-and-replacement-of-the-constitution">CHAPTER XI. REFORM AND REPLACEMENT OF THE CONSTITUTION</a>
-        <ol>
-          <li><a href="#constitutional-reform">Constitutional Reform</a></li>
-          <li><a href="#procedure-for-drafting-a-new-constitution">Procedure for drafting a new Constitution</a></li>
-        </ol>
-      </li>
-    </ol>
-  </details>
-</nav>
+<header>
+  <h1>Proposal for a new Constitution for Chile</h1>
+  <p>Draft 3.0 - 2022. Other formats: <a href="https://docs.google.com/document/d/1wcoeFodHBLlcY-uCgOo_UkiVKNs6rgyvBn7k5q5YtgU/edit?usp=sharing">Google Doc</a>, <a href="Proposal%20for%20a%20new%20Constitution%20-%20Chile%202022.pdf">PDF</a>.</p>
+  <nav>
+    <details>
+      <summary>Table of contents</summary>
+      <ol>
+        <li>
+          <a href="#chapter-i-principles-and-general-provisions">CHAPTER I. PRINCIPLES AND GENERAL PROVISIONS</a>
+        </li>
+        <li>
+          <a href="#chapter-ii-fundamental-rights-and-guarantees">CHAPTER II. FUNDAMENTAL RIGHTS AND GUARANTEES</a>
+          <ol>
+            <li><a href="#nationality-and-citizenship">Nationality and Citizenship</a></li>
+            <li><a href="#constitutional-actions">Constitutional Actions</a></li>
+            <li><a href="#peoples-ombudsman">Peoples Ombudsman</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#chapter-iii-nature-and-the-environment">CHAPTER III. NATURE AND THE ENVIRONMENT</a>
+          <ol>
+            <li><a href="#natural-commons">Natural commons</a></li>
+            <li><a href="#statute-of-waters">Statute of Waters</a></li>
+            <li><a href="#statute-of-minerals">Statute of Minerals</a></li>
+            <li><a href="#ombudsman-of-nature">Ombudsman of Nature</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#chapter-iv-democratic-participation">CHAPTER IV. DEMOCRATIC PARTICIPATION</a>
+          <ol>
+            <li><a href="#participation-and-democratic-representation">Participation and democratic representation</a></li>
+            <li><a href="#suffrage-and-electoral-system">Suffrage and electoral system</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#chapter-v-good-governance-and-the-civil-service">CHAPTER V. GOOD GOVERNANCE AND THE CIVIL SERVICE</a>
+        </li>
+        <li>
+          <a href="#chapter-vi-regional-state-and-territorial-organization">CHAPTER VI. REGIONAL STATE AND TERRITORIAL ORGANIZATION</a>
+          <ol>
+            <li><a href="#autonomous-commune">Autonomous Commune</a></li>
+            <li><a href="#province">Province</a></li>
+            <li><a href="#autonomous-region">Autonomous Region</a></li>
+            <li><a href="#indigenous-territorial-autonomy">Indigenous Territorial Autonomy</a></li>
+            <li><a href="#special-territories">Special Territories</a></li>
+            <li><a href="#rural-areas">Rural areas</a></li>
+            <li><a href="#fiscal-autonomy">Fiscal Autonomy</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#chapter-vii-legislative-power">CHAPTER VII. LEGISLATIVE POWER</a>
+          <ol>
+            <li><a href="#congress-of-deputies">Congress of Deputies</a></li>
+            <li><a href="#chamber-of-the-regions">Chamber of the Regions</a></li>
+            <li><a href="#provisions-common-to-the-legislative-branch">Provisions common to the Legislative Branch</a></li>
+            <li><a href="#joint-sessions-of-the-congress-of-deputies-and-the-chamber-of-the-regions">Joint Sessions of the Congress of Deputies and the Chamber of the Regions</a></li>
+            <li><a href="#the-law">The Law</a></li>
+            <li><a href="#legislative-procedure">Legislative Procedure</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#chapter-viii-executive-power">CHAPTER VIII. EXECUTIVE POWER</a>
+        </li>
+        <li>
+          <a href="#chapter-ix-justice-systems">CHAPTER IX. JUSTICE SYSTEMS</a>
+          <ol>
+            <li><a href="#council-of-justice">Council of Justice</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#chapter-x-autonomous-constitutional-bodies">CHAPTER X. AUTONOMOUS CONSTITUTIONAL BODIES</a>
+          <ol>
+            <li><a href="#office-of-the-comptroller-general-of-the-republic">Office of the Comptroller General of the Republic</a></li>
+            <li><a href="#central-bank">Central Bank</a></li>
+            <li><a href="#public-prosecutor's-office">Public Prosecutor's Office</a></li>
+            <li><a href="#public-defender's-office">Public Defender's Office</a></li>
+            <li><a href="#national-data-protection-agency">National Data Protection Agency</a></li>
+            <li><a href="#constitutional-court">Constitutional Court</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#chapter-xi-reform-and-replacement-of-the-constitution">CHAPTER XI. REFORM AND REPLACEMENT OF THE CONSTITUTION</a>
+          <ol>
+            <li><a href="#constitutional-reform">Constitutional Reform</a></li>
+            <li><a href="#procedure-for-drafting-a-new-constitution">Procedure for drafting a new Constitution</a></li>
+          </ol>
+        </li>
+      </ol>
+    </details>
+  </nav>
+</header>
 <article>
 <h2 id="chapter-i-principles-and-general-provisions">CHAPTER I. PRINCIPLES AND GENERAL PROVISIONS</h2>
 <h4>Article 1</h4>
