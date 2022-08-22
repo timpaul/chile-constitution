@@ -9,15 +9,25 @@
       font-family: sans-serif;
       line-height: 1.5;
     }
+    a:link,
+    a:visited{
+      color: black;
+    }
+    a:hover{
+      text-decoration-style: double;
+    }
     details{
       padding: 1em 2em;
     }
     summary{
-      color: blue;
       cursor: pointer;
+      text-decoration: underline;
     }
-    nav{/*
-      position: sticky;
+    summary:hover{
+      text-decoration-style: double;
+    }
+    nav{
+      /* position: sticky;
       top: 0; */
       background: white;
       margin: 0em -2em;
@@ -30,10 +40,14 @@
     nav ol ol{
       padding-inline-start: 1em;
     }
-    nav ol > li{
-      margin-top: 0.5em;
+    details > ol > li{
+      margin-top: 1em;
+      font-weight: bold;
     }
-    article{    
+    details li li{
+      font-weight: normal;
+    }
+    article{
       max-width: 70ch;
     }
     /* Default article list style is deciment, outdented */
@@ -41,7 +55,7 @@
       list-style-position: outside;
       padding-inline-start: 0;
     }
-    li {
+    article li {
       margin-top: 1em;
     }
     /* 2nd level lists are alphanumeric */
@@ -54,10 +68,6 @@
     /* Lists inside alphanumeric lists are decimal again */
     article h3 + p + ol ol{
       list-style-type: decimal;
-    }
-
-    p:contains("women"){
-      color: red;
     }
   </style>
 </head>
